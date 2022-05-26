@@ -1,0 +1,55 @@
+[
+	[
+		{
+			"speaker" : "macbeth",
+			"dialog" : "They have tied me to a stake; I cannot fly, \n But, bear-like, I must fight the course.",
+			"newSpeaker" : "true"
+		},
+		{
+			"speaker" : "macbeth",
+			"dialog" : "What's he \nThat was not born of woman? Such a one \nAm I to fear, or none."
+		},
+		{	
+			"speaker" : "siward",
+			"dialog" : "What is thy name?",
+            "newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "macbeth",
+			"dialog" : "Thou'lt be afraid to hear it.",
+            "newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "siward",
+			"dialog" : "No; though thou call'st thyself a hotter name \nThan any is in hell.",
+            "newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "macbeth",
+			"dialog" : "My name's Macbeth.",
+            "newSpeaker" : "true"
+		}
+	],
+	[
+		{
+			"speaker" : "siward",
+			"dialog" : "The devil himself could not pronounce a title \nMore hateful to mine ear.",
+			"newSpeaker" : "true"
+		},
+		{
+			"speaker" : "macbeth",
+			"dialog" : "No, nor more fearful.",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "siward",
+			"dialog" : "Thou liest, abhorred tyrant; with my sword \nI'll prove the lie thou speak'st.",
+			"newSpeaker" : "true"
+		},
+		{	
+			"speaker" : "macbeth",
+			"dialog" : "    Thou wast born of woman \nBut swords I smile at, weapons laugh to scorn, \nBrandish'd by man that's of a woman born.",
+            "newSpeaker" : "true"
+        }
+	]
+]
