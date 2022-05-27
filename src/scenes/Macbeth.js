@@ -38,7 +38,7 @@ class Macbeth extends Phaser.Scene {
 
     create() {
         // parse dialog from JSON file
-        this.dialog = this.cache.json.get('dialog');
+        this.dialog = this.cache.json.get('macbethdialog');
         //console.log(this.dialog);
 
         // add dialog box sprite
@@ -51,7 +51,7 @@ class Macbeth extends Phaser.Scene {
         // ready the character dialog images offscreen
         this.macbeth = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'macbeth').setOrigin(0, 1);
         this.siward = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'siward').setOrigin(0, 1);
-       
+
         // input
         cursors = this.input.keyboard.createCursorKeys();
 

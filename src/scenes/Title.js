@@ -9,6 +9,7 @@ class Title extends Phaser.Scene {
 
         // load JSON (dialog)
         this.load.json('dialog', 'json/dialog.json');
+        this.load.json('macbethdialog', 'json/macbeth.json');
 
         // load images
         this.load.image('dialogbox', 'img/dialogbox.png');
@@ -17,6 +18,8 @@ class Title extends Phaser.Scene {
         this.load.image('jove', 'img/jove.png');
         this.load.image('neptune', 'img/neptune.png');
         this.load.image('telemachus', 'img/telemachus.png');
+        this.load.image('macbeth', 'img/macbeth.png');
+        this.load.image('siward', 'img/siward.png');
 
         // load bitmap font
         this.load.bitmapFont('gem_font', 'font/gem.png', 'font/gem.xml');
@@ -34,7 +37,8 @@ class Title extends Phaser.Scene {
     update() {
         // wait for player input
         if(Phaser.Input.Keyboard.JustDown(cursors.space)) {
-            this.scene.start("talkingScene");
+            //this.scene.start("talkingScene");
+            this.scene.start("macbethScene");
         }
     }
 }
